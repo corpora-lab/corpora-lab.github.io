@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="65.277641mm"
+   height="56.858276mm"
+   viewBox="0 0 65.277641 56.858276"
+   version="1.1"
+   id="svg360"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs357" />
+  <g
+     id="layer1"
+     transform="translate(-9.4603779,-7.0260066)">
+    <g
+       id="g232"
+       transform="translate(-25.34266,-67.56479)">
+      <g
+         id="g409"
+         transform="translate(0.44020749,0.16663197)">
+        <rect
+           style="fill:#000000;fill-opacity:0.00483351;stroke:#000000;stroke-width:1.76;stroke-dasharray:none;stroke-opacity:1"
+           id="rect111-675"
+           width="18.064768"
+           height="7.3628001"
+           x="-76.297874"
+           y="110.13328"
+           transform="scale(-1,1)" />
+        <rect
+           style="fill:#000000;fill-opacity:0.00483351;stroke:#000000;stroke-width:1.76;stroke-dasharray:none;stroke-opacity:1"
+           id="rect111-3-3"
+           width="18.064768"
+           height="7.3628001"
+           x="-76.297874"
+           y="100.72636"
+           transform="scale(-1,1)" />
+        <rect
+           style="fill:#000000;fill-opacity:0.00483351;stroke:#000000;stroke-width:1.76;stroke-dasharray:none;stroke-opacity:1"
+           id="rect111-6-5"
+           width="18.064768"
+           height="7.3628001"
+           x="-56.95192"
+           y="100.2938"
+           transform="matrix(-0.98280806,0.18463021,0.18463021,0.98280806,0,0)" />
+        <rect
+           style="fill:#000000;fill-opacity:0.00483351;stroke:#000000;stroke-width:1.76;stroke-dasharray:none;stroke-opacity:1"
+           id="rect111-7-6"
+           width="18.064768"
+           height="7.3628001"
+           x="-35.630161"
+           y="96.651062"
+           transform="matrix(-0.92341739,0.38379725,0.38379725,0.92341739,0,0)" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;fill:#000000;fill-opacity:0.00483351;stroke:#000000;stroke-width:1.76;stroke-dasharray:none;stroke-opacity:1"
+         x="34.417206"
+         y="131.28371"
+         id="text2620-29"><tspan
+           id="tspan2618-1"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:14.1111px;font-family:'Inter Display';-inkscape-font-specification:'Inter Display Semi-Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.76"
+           x="34.417206"
+           y="131.28371">CORPORA</tspan></text>
+      <g
+         id="g1208-2"
+         transform="matrix(0.92729417,0,0,0.92729417,-8.263211,-0.08319652)">
+        <rect
+           style="fill:#000000;fill-opacity:0.00483351;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect111-67-7"
+           width="15"
+           height="15"
+           x="-113.88217"
+           y="111.92694"
+           transform="scale(-1,1)" />
+        <circle
+           style="fill:#000000;stroke-width:2;stroke-linejoin:round;stroke-dasharray:none"
+           id="path1072-09"
+           cx="102.31171"
+           cy="115.39203"
+           r="1.6082923" />
+        <circle
+           style="fill:#000000;stroke-width:2;stroke-linejoin:round;stroke-dasharray:none"
+           id="path1072-7-3"
+           cx="110.56306"
+           cy="123.56065"
+           r="1.6082923" />
+      </g>
+      <g
+         id="g397"
+         transform="translate(2.1166667)">
+        <rect
+           style="fill:#000000;fill-opacity:0.00483351;stroke:#000000;stroke-width:1.85459;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect111-67-2-6"
+           width="13.909412"
+           height="13.909412"
+           x="-50.201054"
+           y="103.4765"
+           transform="matrix(-0.99998944,-0.00459634,-0.00459634,0.99998944,0,0)" />
+        <circle
+           style="fill:#000000;stroke-width:1.85459;stroke-linejoin:round;stroke-dasharray:none"
+           id="path1072-0-3-2"
+           cx="76.066498"
+           cy="84.026855"
+           r="1.4913601"
+           transform="rotate(22.203925)" />
+        <circle
+           style="fill:#000000;stroke-width:1.85459;stroke-linejoin:round;stroke-dasharray:none"
+           id="path1072-0-6-6"
+           cx="83.633888"
+           cy="81.024338"
+           r="1.4913601"
+           transform="rotate(22.203925)" />
+        <circle
+           style="fill:#000000;stroke-width:1.85459;stroke-linejoin:round;stroke-dasharray:none"
+           id="path1072-0-0-1"
+           cx="86.607521"
+           cy="88.559143"
+           r="1.4913601"
+           transform="rotate(22.203925)" />
+        <circle
+           style="fill:#000000;stroke-width:1.85459;stroke-linejoin:round;stroke-dasharray:none"
+           id="path1072-0-62-8"
+           cx="79.063759"
+           cy="91.590744"
+           r="1.4913601"
+           transform="rotate(22.203925)" />
+      </g>
+    </g>
+  </g>
+</svg>

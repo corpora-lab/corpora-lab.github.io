@@ -1,0 +1,26 @@
+---
+---
+/* Add your custom style here */
+@import "portfolYOU";
+
+.project {
+  img.card-img-top {
+    margin: auto;
+  }
+
+  .card-footer {
+    &:last-child {
+      border-radius: 0 0 14px 14px;
+    }
+  }
+}
+
+.markdown-body {
+  text-align: justify;
+
+  img.person {
+    max-width: 20%;
+    float: left;
+    margin: 1rem;
+  }
+}
