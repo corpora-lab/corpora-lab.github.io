@@ -1,7 +1,7 @@
 ---
 title: Ezio Bartocci
 description: Mentor, Univ-Prof.
-picture: http://www.eziobartocci.com/img/foto_new.png
+picture: /assets/pics/bartocci.jpg
 ---
 
 # Ezio Bartocci
