@@ -1,7 +1,7 @@
 ---
 title: Francesco Pontiggia
 description: PhD Student
-picture: /assets/pics/pontiggia.jpg
+picture: /assets/pics/pontiggia.JPG
 ---
 
 # Francesco Pontiggia
