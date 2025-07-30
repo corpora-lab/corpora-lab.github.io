@@ -24,3 +24,9 @@
     margin: 1rem;
   }
 }
+
+.markdown-body table:not(.highlight) {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
