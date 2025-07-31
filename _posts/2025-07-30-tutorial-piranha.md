@@ -14,6 +14,7 @@ Check out the first post [here](tutorial-get-started).
 
 # A piranha in a fishbowl
 
+<img class="main-image illustration" src="/assets/pics/fishbowl.webp"/>
 In this post we will explore *conditioning*, a very important concept in probability theory.
 We'll do so with the help of the following problem:
 
@@ -160,5 +161,55 @@ Thus, the probability that the fish initially in the bowl was a piranha is \\(\f
 and POPACheck has solved the problem for us.
 
 
- <!-- ## Solving the problem manually -->
- <!-- TODO: also add picture -->
+## Solving the problem manually
+
+But what if we wanted to solve this problem ourselves?
+Let's make a table!
+We will use 🐟 for the piranha, and 🐠 for the goldfish.
+
+| F1 | F2 | Extracted (which one) | Extracted (Type) |
+|----|----|-----------------------|------------------|
+| 🐟  | 🐟  | F1                    | 🐟                |
+| 🐟  | 🐟  | F2                    | 🐟                |
+| 🐠  | 🐟  | F1                    | 🐠                |
+| 🐠  | 🐟  | F2                    | 🐟                |
+
+By looking at the last column, we can see that the we can extract a piranha 🐟 in 3 cases over 4, hence with a probability of \\(\frac{3}{4}\\).
+Clearly, we extract a goldfish 🐠 in one case over four, hence with a probability of \\(\frac{1}{4}\\).
+
+But what's the answer to the problem statement?
+To get our answer, we consider only the three rows that contain a piranha in the last column,
+hence considering only the cases in which we extract a piranha.
+Among these three rows, two have a piranha in the first column, indicating that the fish already in the bowl was a piranha.
+These are two cases out of three, so the probability that the fish in the bowl was a piranha knowing that we extracted a piranha is \\(\frac{2}{3}\\).
+
+Note that we can also obtain our result as follows:
+\\[
+\frac{\frac{2}{4}}{\frac{3}{4}} = \frac{1}{2} \cdot \frac{4}{3} = \frac{2}{3}
+\\]
+
+Where does \\(\frac{2}{4}\\) come from?
+It's the *joint probability* that the fish already in the bowl was a piranha and that we extract a piranha (which can be any of the two fish in the bowl).
+We write it as \\(P(\mathit{F1} = 🐟 \land \mathit{Extracted} = 🐠)\\).
+We can easily see that it's \\(\frac{1}{2}\\) by thinking that, if the fish in the bowl was a piranha, then we extract a piranha with probability one, because the fish we put in the bowl is a piranha.
+Hence, the joint probability is only given by the probability that the fish in the bowl was a piranha.
+
+The probability that the problem asks us to estimate is called a *conditional probability*,
+or the probability that the fish in the bowl was a piranha *conditioned* on the observed fact that we extracted a piranha.
+We write it as \\(P(\mathit{F1} = 🐟 \mid \mathit{Extracted} = 🐠)\\).
+We have the following relation, that we can use to compute a conditional probability:
+\\[
+P(\mathit{F1} = 🐟 \mid \mathit{Extracted} = 🐠) = \frac{P(\mathit{F1} = 🐟 \land \mathit{Extracted} = 🐠)}{P(\mathit{Extracted} = 🐠)}
+\\]
+where \\(P(\mathit{Extracted} = 🐠)\\) is the probability of extracting a piranha.
+
+What do you think? Is it easier to come up with the argument above, or to just let POPACheck do it for us?
+
+---
+
+This blog post was inspired by an example in the article:
+F. Olmedo, F. Gretz, N. Jansen, B.L. Kaminski, J.-P. Katoen and A. McIver. [*Conditioning in probabilistic programming*](https://doi.org/10.1145/3156018){:target="_blank"}. ACM Transactions on Programming Languages and Systems (TOPLAS), 40(1), pp.1-50, 2028.
+
+
+**Keep following this blog posts series to discover more interesting facts about random phenomena,
+and how to reason on them with POPACheck.**

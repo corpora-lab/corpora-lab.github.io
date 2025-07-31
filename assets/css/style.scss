@@ -23,6 +23,12 @@
     float: left;
     margin: 1rem;
   }
+
+  img.illustration {
+    max-width: 30%;
+    float: right;
+    margin: 1rem;
+  }
 }
 
 .markdown-body table:not(.highlight) {

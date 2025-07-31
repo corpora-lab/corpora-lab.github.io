@@ -173,7 +173,7 @@ SCC count in the support graph: 19
 Size of the largest SCC in the support graph: 1
 Largest number of non trivial equations in an SCC in the Support Graph: 1
 ```
-<img class="main-image person" src="/assets/pics/coin_flips.webp"/>
+<img class="main-image illustration" src="/assets/pics/coin_flips.webp"/>
 Hence the termination probability of the program is again \\(1\\),
 or it *terminates almost surely*.
 This is not surprising:
