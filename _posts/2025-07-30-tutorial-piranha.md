@@ -14,7 +14,7 @@ Check out the first post [here](tutorial-get-started).
 
 # A piranha in a fishbowl
 
-<img class="main-image illustration" src="/assets/pics/fishbowl.webp"/>
+<img class="main-image illustration-right" src="/assets/pics/fishbowl.webp"/>
 In this post we will explore *conditioning*, a very important concept in probability theory.
 We'll do so with the help of the following problem:
 
@@ -26,7 +26,7 @@ We'll do so with the help of the following problem:
 > fish that was originally in the bowl by itself was a piranha?
 
 taken from
-*Henk Tijms, [Understanding Probability: Chance Rules in Everyday Life](https://doi.org/10.1017/CBO9780511619052){:target="_blank"}. Cambridge University Press, 2007*.
+Henk Tijms, *Understanding Probability: Chance Rules in Everyday Life*. Cambridge University Press, 2007. [[Link]](https://doi.org/10.1017/CBO9780511619052){:target="_blank"}
 
 
 ## Solving the problem with POPACheck
