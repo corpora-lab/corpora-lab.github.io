@@ -1,4 +1,29 @@
 - title: Project Started
   from: September 1st, 2023
-  to:
+  to: August 31st, 2025
   description: Official starting date of the project
+
+- title: Milestone 1
+  from: April 30th, 2024
+  to:
+  description: Theoretical framework defined
+
+- title: Second year
+  from: September 1st, 2024
+  to: August 31st, 2025
+  description: Start of the second year of the project
+
+- title: Milestone 2
+  from: January 31st, 2025
+  to:
+  description: Model checking algorithms defined
+
+- title: Milestone 3
+  from: August 31st, 2025
+  to:
+  description: Tool implementation finished and experiments carried out
+
+- title: End of the Project
+  from:
+  to: August 31st, 2025
+  description:
